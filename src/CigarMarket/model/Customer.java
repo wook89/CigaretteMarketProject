@@ -2,18 +2,18 @@ package CigarMarket.model;
 
 public class Customer extends User {
 	
-	String emale;
+	String email;
 	String adress;
-	public String getEmale() {
-		return emale;
+	public String getEmail() {
+		return email;
 	}
-	public void setEmale(String emale) {
-		this.emale = emale;
+	public void setEmail(String emale) {
+		this.email = emale;
 	}
-	public String getAdress() {
+	public String getAddress() {
 		return adress;
 	}
-	public void setAdress(String adress) {
+	public void setAddress(String adress) {
 		this.adress = adress;
 	}
 }

@@ -19,5 +19,4 @@ public class CigarMarket {
 		CigarMarketController controller = new CigarMarketController(cigarStorage,cart,view);
 		controller.start();
 	}
-
 }
